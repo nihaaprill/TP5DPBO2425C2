@@ -97,3 +97,10 @@ Saya Niha April Miani dengan NIM 2402567 mengerjakan Tugas Praktikum 5 dalam mat
 
 ![Deskripsi gambar](Dokumentasi/deletetp5.1.png)
 
+## ERROR JIKA KOLOM INPUT KOSONG ##
+![Deskripsi gambar](Dokumentasi/error.png)
+
+## ERROR KOLOM ID SUDAH ADA ##
+![Deskripsi gambar](Dokumentasi/idsudahada.png)
+
+
