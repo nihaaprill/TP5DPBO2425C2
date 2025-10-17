@@ -3,7 +3,7 @@
 Saya Niha April Miani dengan NIM 2402567 mengerjakan Tugas Praktikum 5 dalam mata kuliah Desain Pemogramana Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
 
 ## Desain Program ##
-1. Komponen Utama GUI:
+## 1. Komponen Utama GUI: ##
    - JPanel (mainPanel) → Panel utama tempat seluruh komponen GUI ditampilkan
    - JTextField (idField, namaField, hargaField) → Input teks untuk mengisi ID, nama kopi, dan harga
    - JComboBox (kategoriComboBox) → Pilihan kategori kopi (Arabica, Robusta, Liberica)
@@ -14,25 +14,25 @@ Saya Niha April Miani dengan NIM 2402567 mengerjakan Tugas Praktikum 5 dalam mat
       - Delete → Menghapus data yang dipilih
    - JLabel (titleLabel) → Judul besar aplikasi “Product Menu”
 
-2. Desain Database
+## 2. Desain Database ##
    - Nama database: db_product_menu
    - Tabel: Produk
    - Kolom: id (Primary kwy), nama (Nama kopi), hargan (Harga kopi), kategori (Jenis kopi: Arabica,Robusta,       Liberica)
    - Tipe data: VARCHAR(10), VARCHAR(100), DOUBLE, VARCHAR(50)
 
 ## Alur Program ##
-1. Program dijalankan
+## 1. Program dijalankan ##
 - Kelas ProductMenu dijalankan melalui main()
 - Ukuran jendela diatur (setSize(700,600)), ditampilkan (setVisible(true))
 - Fungsi setTable() langsung dipanggil untuk menampilkan semua data dari database MySQL ke JTable
 
-2. Menampilkan Data dari Database (setTable)
+## 2. Menampilkan Data dari Database (setTable) ##
 - Program membuka koneksi ke MySQL (getConnection())
 - Melakukan query SELECT * FROM produk
 - Hasil query ditampilkan dalam tabel (productTable)
 - Jika gagal, muncul pesan "Gagal memuat data"
 
-3. Menambahkan Data Baru (insertData)
+## 3. Menambahkan Data Baru (insertData) ##
 - Pengguna mengisi id, nama, harga, dan memilih kategori
 - Jika salah satu kosong → muncul pesan error
 - Program memeriksa apakah id sudah ada di database
@@ -43,14 +43,14 @@ Saya Niha April Miani dengan NIM 2402567 mengerjakan Tugas Praktikum 5 dalam mat
   - Form dikosongkan (clearForm())
   - Pesan “Data kopi berhasil ditambahkan!” muncul
  
-4. Memilih Data di Tabel
+## 4. Memilih Data di Tabel ##
 - Saat pengguna mengklik baris di JTable:
 - Data baris tersebut diambil (MouseListener)
 - Nilai ditampilkan ke dalam field form (idField, namaField, hargaField, kategoriComboBox)
 - Tombol “Add” berubah jadi “Update”
 - Tombol “Delete” muncul
 
-5. Mengubah Data (updateData)
+## 5. Mengubah Data (updateData) ##
 - Setelah memilih data dari tabel dan mengedit field:
   - Tombol “Update” ditekan
   - Query yang dijalankan:
@@ -62,7 +62,7 @@ Saya Niha April Miani dengan NIM 2402567 mengerjakan Tugas Praktikum 5 dalam mat
   - Form dikosongkan dan mode kembali ke “Add”
   - Pesan “Data kopi berhasil diperbarui!” muncul
 
-6. Menghapus Data (deleteData)
+## 6. Menghapus Data (deleteData) ##
 - Pengguna klik data dari tabel → tekan tombol “Delete”
 - Muncul dialog konfirmasi (YES/NO)
 - Jika “YES”, program menjalankan:
@@ -72,7 +72,7 @@ Saya Niha April Miani dengan NIM 2402567 mengerjakan Tugas Praktikum 5 dalam mat
   - Tabel diperbarui
   - Pesan “Data kopi berhasil dihapus!” muncul
 
-7. Membersihkan Form (clearForm)
+## 7. Membersihkan Form (clearForm) ##
 - Mengosongkan seluruh input field
 - Mengatur kembali mode tombol ke “Add”
 - Menyembunyikan tombol “Delete”
