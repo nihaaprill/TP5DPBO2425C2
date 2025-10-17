@@ -80,18 +80,20 @@ Saya Niha April Miani dengan NIM 2402567 mengerjakan Tugas Praktikum 5 dalam mat
 
 ## Dokumentasi ##
 
-1. ADD
+## 1. ADD ##
 ![Deskripsi gambar](Dokumentasi/addtp5.1.png)
 
 ![Deskripsi gambar](Dokumentasi/addtp5.2.png)
 
 ![Deskripsi gambar](Dokumentasi/addtp5.3.png)
 
-2. UPDATE
+## 2. UPDATE ##
 ![Deskripsi gambar](Dokumentasi/updatetp5.1.png)
 
 ![Deskripsi gambar](Dokumentasi/updatetp5.2.png)
 
-3. DELETE
+## 3. DELETE ##
 ![Deskripsi gambar](Dokumentasi/deletetp5.png)
+
+![Deskripsi gambar](Dokumentasi/deletetp5.1.png)
 
